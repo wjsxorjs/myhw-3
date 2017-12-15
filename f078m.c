@@ -104,7 +104,6 @@ int main(int argc, char *argv[]) {
       alloc_list[j++] = m_malloc(atoi(query_list[i].val));
       break;
     }
-
     print_block_list();
   }
 
